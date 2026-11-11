@@ -31,7 +31,7 @@ try:
         with st.chat_message("assistant"):
             with st.spinner("AI is thinking..."):
                 response = client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                    model="model="openai/gpt-oss-120b",
                     messages=st.session_state.messages
                 )
                 answer = response.choices[0].message.content
