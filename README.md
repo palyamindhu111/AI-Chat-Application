@@ -32,9 +32,9 @@ ollama pull llama3.2:1b
 Run the application:
 
 streamlit run app.py
+
 ## Project Screenshot
 
 ![AI Chat Assistant](screenshots/chatbot-demo.png)
-
 ## Author
 Indhu
